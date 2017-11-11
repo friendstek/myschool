@@ -10,7 +10,7 @@ namespace AspNetCoreWebApplication.Controllers
     {
         public IActionResult Index()
         {
-            ViewData["Message"] = "wlcome to .net cor application";
+            ViewData["Message"] = "welcome to .net core application";
             return View();
         }
 
