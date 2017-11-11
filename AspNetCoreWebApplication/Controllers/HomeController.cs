@@ -11,7 +11,7 @@ namespace AspNetCoreWebApplication.Controllers
         public IActionResult Index()
         {
             ViewData["Message"] = "welcome to .net core application";
-            return View();
+            return View()
         }
 
         public IActionResult Error()
